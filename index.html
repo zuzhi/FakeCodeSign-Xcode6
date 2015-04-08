@@ -49,14 +49,14 @@
 <h3>
 <a id="写app" class="anchor" href="#%E5%86%99app" aria-hidden="true"><span class="octicon octicon-link"></span></a>写App</h3>
 
-<p>比如写一个Button链接这ViewController.swift中的showMessage()方法的iPhone Swift App
-‘’‘’
-@IBAction func showMessage() {
+<p>比如写一个Button链接这ViewController.swift中的showMessage()方法的iPhone Swift App</p>
+
+<pre><code>@IBAction func showMessage() {
         let alertController = UIAlertController(title: "Congratulations", message: "Running on a real device...", preferredStyle: UIAlertControllerStyle.Alert)
         alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
         self.presentViewController(alertController, animated: true, completion: nil)
     }
-‘’‘’</p>
+</code></pre>
 
 <h3>
 <a id="修改信息" class="anchor" href="#%E4%BF%AE%E6%94%B9%E4%BF%A1%E6%81%AF" aria-hidden="true"><span class="octicon octicon-link"></span></a>修改信息</h3>
